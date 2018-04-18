@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "fertigoPro";
+    src: url('../fonts/FertigoPro-Regular.woff');
+    src: url('../fonts/FertigoPro-Regular.ttf');
+    src: url('../fonts/FertigoPro-Regular.eot');
+    src: url('../fonts/FertigoPro-Regular.woff2');
+}
+
+body {
+	text-align: justify;
+	background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    background-position: top center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+}
+
+/*===== TOP NAVBAR =====*/
+
+.navbar-default {
+    background-color: #027878 !important;
+    border-color: #027878 !important;
+    margin-bottom: 0 !important
+}
+
+.navbar-default .navbar-header .navbar-brand { padding: 0px 15px !important; }
+
+.navbar-default .navbar-header span img {
+	height: auto;
+	width: 85px;
+	border: 10px solid #027878;
+	background-color: #027878;
+}
+
+.navbar-default .navbar-nav>li>a { color: #ffffff !important;}
+
+.navbar-default .navbar-nav>li>a:hover { color: #000000 !important;}
+
+/*===== HEADER =====*/
+
+.main-title {
+	background-color: #dadada;
+	margin-bottom: 10px;
+	padding: 30px 0 35px 0;
+	text-align: center;
+}
+
+/*===== SECTION 0 =====*/
+
+.sect0 {
+	padding: 35px 0 0 0;
+}
+
+.sect0 .row {
+	border-top: 5px dashed #dadada;
+	border-bottom: 5px dashed #dadada;
+	padding: 0 0 50px 0;
+}
+
+.sect0 h2 {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+/*===== COUNTDOWN =====*/
+
+.countdown {
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 75%;
+	max-width: 30rem;
+	margin: 0 auto;
+	background-color: #02787829;
+	border-radius: 15px 15px 0 0;
+	border-bottom: 8px solid #027878;
+	padding: 15px;
+}
+
+.countdown__item {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 auto;
+	min-width: 31%;
+	margin-bottom: 1rem;
+}
+
+.countdown__item--large {
+	flex: auto;
+	width: 100%;
+	font-size: 30px;
+}
+
+.countdown__timer {
+padding: .25em;
+background-color: white;
+border: 1px solid black;
+border-radius: 3px;
+font-weight: bold;
+font-size: 25px;
+}
+
+.countdown__label {
+	font-size: 1em;
+	padding-top: .30em;
+}
+
+/*===== SECTION MAIN =====*/
+
+.sect-main h2 {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.sect-main h3 {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sect-main .big-title  {
+	text-align: center !important;
+	padding: 15px;
+}
+
+.sect-main .big-subtitle {
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 35px;
+}
+
+.sect-main .big-content {
+	text-align: center;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.sect-main #fertigo {
+	font-family: fertigoPro;
+}
+  
+/*===== SECTION 1 =====*/
+
+.sect1 .right-align { 
+	text-align: right;
+	padding: 25px;
+}
+
+.sect1 .left-align { 
+	text-align: left;
+	padding: 25px;
+}
+
+.sect1 p {
+	line-height: 30px;
+	font-size: 20px;
+}
+
+
+/*===== SECTION 2 =====*/
+
+.sect2 {
+	margin: 25px 25px 50px 25px;
+}
+
+.sect2 img {
+	width: 350px;
+	height: 200px;
+	transition: transform .2s;
+	border-radius: 30px 30px 0 0;
+	padding: 8px 8px 15px 8px;
+	border-bottom: 8px solid #027878;
+	margin: 0 8px;
+}
+
+.sect2 h3 {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sect2 img:hover { transform: scale(1.2); }
+
+/*===== SECTION CONTENT =====*/
+
+.sect-content {
+	padding: 25px 0;
+}
+
+.sect-content h3 {
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+.sect-content button, table {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.sect-content button a {
+	text-decoration: none;
+	color: #5e5a5b;
+}
+
+.sect-content table thead {
+	background-color: #00918d3b;
+}
+
+.sect-content table thead th { text-align: center; }
+
+.sect-content iframe {
+	border-bottom: 8px solid #027878;
+	margin-top: 15px;
+	/*box-shadow: 1px 1px 5px #888888;*/
+	border-radius: 30px 30px 0 0;
+	padding: 8px;
+}
+
+.sect-content .orgChart {
+	border: 2px solid #027878;
+	margin: 8px 0;
+	padding: 0 !important;
+	height: 155px;
+}
+
+.sect-content .orgChart img { display: inline-block;}
+
+.sect-content .orgChart span {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.sect-content img.img-responsive.galery {
+	border: none !important;
+	box-shadow: none !important;
+	height: 200px;
+	width: auto;
+}
+
+.sect-content img {
+	width: 450px;
+    height: 200px;
+    border: 5px solid #ffffff;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 5px;
+    margin: 15px 8px;
+}
+
+.sect-content figcaption { text-align: center; }
+
+.sect-content .year td {
+	background-color: #00918d3b;
+	width: 250px;
+	border-radius: 15px;
+	padding-left: 15px;
+}
+
+.sect-content .img-galeri {
+	width: 250px;
+	height: auto;
+}
+
+.sect-content .panel-body li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.sect-content .panel-body li a:hover {
+	color: #027878;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*===== SECTION ORGANISASI =====*/
+
+.sect-organisasi { margin-top: 25px; }
+
+.sect-organisasi img {
+	width: 110px;
+	height: 125px;
+	padding-bottom: 8px;
+	border-radius: 10px;
+}
+
+.sect-organisasi .col-sm-12 {
+	width: 350px;
+	background-color: #6adf6e;
+	border: 4px solid #00b150;
+	padding: 8px;
+	text-align: center;
+	margin: 15px;
+	margin-left: 32%;
+	border-radius: 15px;
+}
+
+.sect-organisasi .col-sm-6 {
+	width: 280px;
+	background-color: #6adf6e;
+	border: 4px solid #00b150;
+	padding: 8px;
+	text-align: center;
+	margin: 20px 0;
+	margin-left: 15%;
+	border-radius: 15px;
+}
+
+.sect-organisasi .col-sm-4 {
+	width: 250px;
+	height: 180px;
+	background-color: #6adf6e;
+	border: 4px solid #00b150;
+	padding: 8px;
+	text-align: center;
+	margin: 20px 0;
+	margin-left: 8%;
+	border-radius: 15px;
+}
+
+.sect-organisasi .col-sm-3 {
+	width: 250px;
+	height: 180px;
+	background-color: #6adf6e;
+	border: 4px solid #00b150;
+	padding: 8px;
+	text-align: center;
+	margin: 25px 15px;
+	border-radius: 15px;
+}
+
+.sect-organisasi .row.am {
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+/*===== SUB FOOTER =====*/
+
+.sub-footer {
+	background-color: #dadada;
+	color: #5e5a5b;
+	padding: 20px 0 15px 0;
+}
+
+/*===== FOOTER =====*/
+
+footer {
+    background-color: #027878;
+    color: #ffffff;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    display: inline-block;
+    float: left;
+}
+
+footer span a {
+    display: inline-block;
+    float: right;
+    color: #0e5b5b;
+    font-weight: bold;
+}
+
+footer span a:hover {
+	color: #0e5b5b;
+	text-decoration: none;
+}
